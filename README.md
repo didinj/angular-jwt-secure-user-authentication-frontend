@@ -1,4 +1,6 @@
-# AngularAuthFrontend
+# Building a Secure User Authentication System with NestJS 11, JWT, MongoDB, and Angular 20
+
+Read the full tutorial [here]().
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
 

@@ -1,0 +1,24 @@
+<div class="container mt-5" style="max-width: 400px">
+  <h3 class="text-center mb-4">Register</h3>
+
+  <form (ngSubmit)="register()">
+    <div class="mb-3">
+      <label>Email</label>
+      <input [(ngModel)]="email" name="email" class="form-control" type="email" required />
+    </div>
+
+    <div class="mb-3">
+      <label>Password</label>
+      <input [(ngModel)]="password" name="password" class="form-control" type="password" required />
+    </div>
+
+    <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+    <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+
+    <button class="btn btn-success w-100">Register</button>
+  </form>
+
+  <div class="text-center mt-3">
+    <a routerLink="/login">Already have an account? Login</a>
+  </div>
+</div>
