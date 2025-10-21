@@ -1,6 +1,6 @@
 # Building a Secure User Authentication System with NestJS 11, JWT, MongoDB, and Angular 20
 
-Read the full tutorial [here]().
+Read the full tutorial [here](https://www.djamware.com/post/68f6fed08745621f8ddc8894/building-a-secure-user-authentication-system-with-nestjs-11-jwt-mongodb-and-angular-20).
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
 
